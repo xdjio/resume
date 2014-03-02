@@ -1,0 +1,254 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%
+% 2014-02-28 repurposed and tweaked by Josh Gardner for my own personal resume
+% this is a new style and slight departure from previous resumes.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+
+\header{Joshua}{Gardner}{A senior IT Infrastructure professional with 14 years experience} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+Apt 8 - 2165 Oxford St.
+Vancouver, BC V5L1E8
+Canada
+~
+(604) 307 4801
+~
+josh.gardner@gmail.com
+\section{os and tools}
+Most Windows flavours
+Linux and *nix-alikes
+OpenBSD, Solaris
+Puppet, Ansible, Salt
+\section{virtualization}
+VMWare 3.x, 4.x, 5.x
+RHEV
+\section{storage}
+FC and iSCSI SAN
+EMC Celerra
+Hitachi HUS
+Quantum Dxi
+De-dupe
+\section{security}
+Postfix, SpamAssasin
+Policyd-weight, amavisd
+Exim, Sendmail, QMail
+\section{programming}
+perl, PHP, LISP
+C, C++, Java, bash
+CSS \& HTML
+\section{networking}
+Cisco, HP ProCurve
+WAN, MPLS
+VPN, isakmpd
+WAAS, BlueCoat
+\section{database}
+Oracle, MySql
+PostgreSQL
+SQL Server
+\end{aside}
+
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2013--Now}
+{BUCKLAND \& TAYLOR}
+{North Vancouver, British Columbia}
+{\emph{North America Regional IT Manager} \\
+Responsible for the development and delivery of IT projects for 4 companies and 400+ users across NA. Manages 3 direct reports across NA. Ensures that excellent solutions are delivered under-budget. Projects include: \\
+\begin{itemize}
+\item Project management of region-wide Windows upgrade, delivered on-time
+\item Change management for a region-wide telephony replacement with Lync
+\item Coordination of facility cabling upgrades, NA regional wifi rollout
+\item Disaster recovery and business continuity planning and execution
+\item Created new service desk in NA region, using ITIL and ITSM practices
+\item Integration of newly-purchased entity into NA regional IT fabric
+\item IT Policy governance for four organizations over \$10M monthly revenue
+\item Budget responsibility for IT spend and organization SLA costs
+\end{itemize}}
+\\
+%------------------------------------------------
+\entry
+{2008--2013}
+{SYSCON JUSTICE SYSTEMS}
+{Richmond, British Columbia}
+{\emph{IT Manager} \\
+Management responsibility for the worldwide IT department and team members, and all IT functions. \\
+\begin{itemize}
+\item Implemented IT best practices
+\item Infrastructure, strategy, poliocy to enable annual 500\% revenue growth
+\item Converted to 100\% virtualized servers, saved 1 FTE, 99.95\% uptime
+\item Renegotiated telephony contracts, saved \$60K per year
+\item Implemented a global service desk
+\item Relocated head office (140 staff) with zero downtime
+\item Deployed Cisco VOIP system, saved \$10K per year
+\item Integration with software development and contuous release operation
+\item Implemented automation, saved 1 FTE
+\end{itemize}}
+\\
+%------------------------------------------------
+\entry
+{2007-2008}
+{BRIGHTON CONSULTING}
+{Vancouver, British Columbia}
+{\emph{IDM Implementation Specialist} \\
+Facilitated system design and implementation of the Sun Java Identity stack for large client deployments.}
+%------------------------------------------------
+\entry
+{2002-2007}
+{DIEBOLD ELECTION SYSTEMS}
+{Vancouver, British Columbia}
+{\emph{Senior Systems Administrator} \\
+Responsible for companywide infrastructure, planning and implementing growth. Supported business with numerous integrated solutions.}
+%------------------------------------------------
+\entry
+{2001-2002}
+{SYNTECOR LTD.}
+{Vancouver, British Columbia}
+{\emph{Java Web Developer} \\
+Java-based web application programming, using ORDB, EJB / Servlets.}
+%------------------------------------------------
+\entry
+{1999-2001}
+{OPENROAD COMMUNICATIONS}
+{Vancouver, British Columbia}
+{\emph{Web Developer and Systems Administrator} \\
+Maintenance and continual improvements to infrastructure. Perl web app development and fax-to-email deployment.}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{1997--1999}
+{Dipl. T {\normalfont Computer Systems Technology}}
+{British Columbia Institute of Technology}
+{\emph{Applied Artificial Intelligence} \\ A project utilizing a combined approach of genetic programming and genetic algorithms to derive formulae for the analysis of fractal curves.}
+%------------------------------------------------
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{awards}
+
+% \begin{entrylist}
+%------------------------------------------------
+% \entry
+% {2011}
+% {Postgraduate Scholarship}
+% {School of Business, The University of California}
+% {Awarded to the top student in their final year of a Bachelors degree.}
+%------------------------------------------------
+% \end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{communication skills}
+
+% \begin{entrylist}
+%------------------------------------------------
+% \entry
+% {2011}
+% {Oral Presentation}
+% {California Business Conference}
+% {Presented the research I conducted for my Masters of Commerce degree.}
+%------------------------------------------------
+% \entry
+% {2010}
+% {Poster}
+% {Annual Business Conference, Oregon}
+% {As part of the course work for BUS320, I created a poster analyzing several local businesses and presented this at a conference.}
+%------------------------------------------------
+% \end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interests}
+
+\textbf{professional:} high availability, automation, root cause analysis, risk analysis, distributed systems \textbf{personal:} scuba diving, bouldering, running, cycling, cinema, photography
+
+%----------------------------------------------------------------------------------------
+%	ORGANIZATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{organizations}
+
+\textbf{Global Underwater Explorers:} Project management for all Project Baseline marine research programs conducted within British Columbia. Site Manager for reseach program into the wreck of the ex-CCGS Ready.
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{publications}
+
+%\printbibsection{article}{article in peer-reviewed journal} % Print all articles from the bibliography
+
+%\printbibsection{book}{books} % Print all books from the bibliography
+
+%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+%\nocite{*}
+%\printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, %heading=subbibliography]
+%\end{refsection}
+
+%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
+%\nocite{*}
+%\printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+%\end{refsection}
+
+%\printbibsection{misc}{other publications} % Print all miscellaneous entries from the bibliography
+
+%\printbibsection{report}{research reports} % Print all research reports from the bibliography
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
